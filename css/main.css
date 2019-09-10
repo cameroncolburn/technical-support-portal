@@ -71,9 +71,28 @@ li a:hover {
     color: #fff;
 }
 
+main {
+    margin: 8px;
+    padding: 32px;
+}
+
+.main-container {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap: 30px;
+}
+
 .product-card {
     border: 1px solid #000;
-    border-radius: 5px;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-card img {
+    height: 85px;
 }
   
   /*=========================<h1> title-header==========================*/
