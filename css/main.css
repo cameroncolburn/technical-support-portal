@@ -1,3 +1,12 @@
+:root {
+    --primary-bg-color: #545857;
+    --secondary-bg-color: #b2b4ae;
+    --tertiary-bg-color: #eee;
+    --nav-hover-bg-color: #33658a;
+    --product-card-bg-color: #f5f5f7;
+    --main-color: #fff;
+  }
+
 body {
     margin: 0;
     padding: 0;
@@ -5,8 +14,8 @@ body {
 }
   
 header {
-    background-color: #545857;
-    color: #fff;
+    background-color: var(--primary-bg-color);
+    color: var(--main-color);
 }
 
 .search-bar {
@@ -21,7 +30,7 @@ header {
 
 .search-bar input[type=text] {
     width: 50%;
-    background-color: #eee;
+    background-color: var(--tertiary-bg-color);
 }
 
 .container {
@@ -59,7 +68,7 @@ ul {
 li a {
     display: block;
     text-align: center;
-    color: #fff;
+    color: var(--main-color);
     padding: 15px 30px;
     text-decoration: none;
     text-transform: uppercase;
@@ -67,13 +76,13 @@ li a {
 }
   
 li a:hover {
-    background-color: #33658a;
-    color: #fff;
+    background-color: var(--nav-hover-bg-color);
+    color: var(--main-color);
 }
 
 main {
     margin: 8px;
-    padding: 32px;
+    padding: 48px 32px;
 }
 
 .main-container {
@@ -89,10 +98,48 @@ main {
     border-radius: 15px;
     padding: 20px;
     text-align: center;
+    background-color: var(--product-card-bg-color);
 }
 
 .product-card img {
     height: 85px;
+}
+
+.bottom-nav {
+    background-color: var(--secondary-bg-color);
+    color: var(--main-color);
+}
+
+.bottom-nav p {
+    padding: 0;
+    margin: 0;
+}
+
+.bottom-nav-container {
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: ;
+}
+
+.nav-card {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.footer-container {
+    background-color: var(--primary-bg-color);
+    color: var(--main-color);
+}
+
+.footer-links {
+    width: 90%;
+    margin: 0 auto;
+    text-align: right;
+    padding: 20px 5px;
+    font-size: 14px;
+
 }
   
   /*=========================<h1> title-header==========================*/
@@ -123,3 +170,16 @@ main {
     }
 }
   /*========================end <h1> title-header=======================*/
+
+@media screen and (max-width: 599px) {
+
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .search-bar input[type=text] {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+}
