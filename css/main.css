@@ -94,8 +94,9 @@ main {
 }
 
 .product-card {
-    border: 1px solid #000;
+    border: 1px solid #bbb;
     border-radius: 15px;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.17);
     padding: 20px;
     text-align: center;
     background-color: var(--product-card-bg-color);
@@ -118,13 +119,34 @@ main {
 .bottom-nav-container {
     width: 70%;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-around;
 }
 
 .nav-card {
     padding: 50px 20px;
     text-align: center;
+}
+
+.nav-card ul {
+    display: block;
+}
+
+.nav-card h3 {
+    margin: 12px 0;
+}
+
+.nav-card li a {
+    display: block;
+    color: var(--main-color);
+    padding: 3px;
+    text-transform: unset;
+    font-size: 14px;
+}
+
+.nav-card li a:hover {
+    background-color: var(--secondary-bg-color);
+    text-decoration: underline;
 }
 
 .footer-container {
