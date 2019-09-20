@@ -7,4 +7,4 @@ This webpage is designed to be a one-stop shop for tech support individuals who 
 <img src="./github/tech-support-desktop.png" alt="Tech Support Portal Desktop View" width="800px">
 
 #### Mobile View:
-<img src="./github/tech-support-mobile.png" alt="Tech Support Portal Mobile View" width="800px">
+<img src="./github/tech-support-mobile.png" alt="Tech Support Portal Mobile View" width="400px">
