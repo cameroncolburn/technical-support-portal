@@ -15,7 +15,9 @@ body {
 }
  /* header and top navigation  */
 header {
+    background-color: #545857;
     background-color: var(--primary-bg-color);
+    color: #fff;
     color: var(--main-color);
 }
 
@@ -36,6 +38,7 @@ header {
 
 .search-bar input[type=text] {
     width: 50%;
+    background-color: #eee;
     background-color: var(--tertiary-bg-color);
 }
 
@@ -74,6 +77,7 @@ ul {
 li a {
     display: block;
     text-align: center;
+    color: #fff;
     color: var(--main-color);
     padding: 0.94em 1.875em;
     text-decoration: none;
@@ -82,7 +86,9 @@ li a {
 }
   
 li a:hover {
+    background-color: #33658a;
     background-color: var(--nav-hover-bg-color);
+    color: #fff;
     color: var(--main-color);
 }
 /* main content grid layout */
@@ -107,6 +113,7 @@ main {
     padding: 1.67em;
     text-align: center;
     font-size: 0.75rem;
+    background-color: #f5f5f7;
     background-color: var(--product-card-bg-color);
 }
 
@@ -128,25 +135,34 @@ main {
     padding: .25em 0.83em;
     border-radius: 25px;
     margin: 8px auto;
+    border-color: #33658a;
     border-color: var(--nav-hover-bg-color);
+    background: #33658a;
     background: var(--nav-hover-bg-color);
+    color: #fff;
     color: var(--main-color);
     text-decoration: none;
     text-transform: uppercase;
 }
 
 .card-button:hover {
+    border-color: #053153;
     border-color: var(--nav-dark-hover-bg-color);
+    background: #053153;
     background: var(--nav-dark-hover-bg-color);
 }
 
 .card-button:active {
+    border-color: #33658a;
     border-color: var(--nav-hover-bg-color);
+    background: #33658a;
     background: var(--nav-hover-bg-color);
 }
 /* bottom navigation */
 .bottom-nav {
+    background-color: #b2b4ae;
     background-color: var(--secondary-bg-color);
+    color: #fff;
     color: var(--main-color);
 }
 
@@ -175,6 +191,7 @@ main {
 
 .nav-card li a {
     display: block;
+    color: #fff;
     color: var(--main-color);
     padding: 0.215em;
     text-transform: unset;
@@ -182,12 +199,15 @@ main {
 }
 
 .nav-card li a:hover {
+    background-color: #b2b4ae;
     background-color: var(--secondary-bg-color);
     text-decoration: underline;
 }
 /* footer */
 .footer-container {
+    background-color: #545857;
     background-color: var(--primary-bg-color);
+    color: #fff;
     color: var(--main-color);
 }
 
@@ -225,6 +245,7 @@ main {
     .flex-nav li a {
         padding: 0.375em 1.25em;
         font-size: 0.875rem;
+        border-top: 1px solid #053153;
         border-top: 1px solid var(--nav-dark-hover-bg-color);
     }
 }
