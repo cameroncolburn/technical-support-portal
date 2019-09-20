@@ -28,7 +28,7 @@ header {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    background-image: -webkit-gradient(linear, left top, right top, color-stop(60%, #FFB500), to(#AF6D04));
+    background-color: #FFB500;
     background-image: linear-gradient(to right, #FFB500 60%, #AF6D04 100%);
 }
 
@@ -102,7 +102,8 @@ main {
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    grid-gap: 30px;
+    grid-column-gap: 30px;
+    grid-row-gap: 5px;
 }
 
 .product-card {
@@ -111,6 +112,7 @@ main {
     -webkit-box-shadow: 3px 3px 8px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.17);
             box-shadow: 3px 3px 8px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.17);
     padding: 1.67em;
+    margin-bottom: 1.6em;
     text-align: center;
     font-size: 0.75rem;
     background-color: #f5f5f7;
@@ -216,7 +218,7 @@ main {
     margin: 0 auto;
     text-align: right;
     padding: 1.43em 0.357em;
-    font-size: 0.875rem;
+    font-size: 0.75rem;
 }
 /*=========================media queries==========================*/
   
@@ -262,6 +264,14 @@ main {
     .nav-card {
         padding: 0.625em 0.625em;
     }
+
+    .nav-card h3 {
+        font-size: 1rem;
+    }
+    
+    .nav-card li a {
+        font-size: 0.75rem;
+    }
 }
 
 @media screen and (max-width: 599px) {
@@ -280,5 +290,9 @@ main {
 
     main {
         padding: 36px 18px;
+    }
+
+    .footer-links {
+        font-size: 0.625rem;
     }
 }
