@@ -9,4 +9,4 @@ This webpage is designed to be a one-stop shop for tech support individuals who 
 #### Mobile View:
 <img src="./github/tech-support-mobile.png" alt="Tech Support Portal Mobile View" width="400px">
 
-#### Link to website [Technical Support Portal](https://suspicious-lalande-b1bdc8.netlify.com)
+#### Link to website [Technical Support Portal](https://techportal.netlify.app/)
